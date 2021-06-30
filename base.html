@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>Rafael Gomez</title>
+    </head>
+    <body class="body">
+        <div>
+            <nav class="nav-container">
+                <ul class="nav-list">
+                    <li><a href="/">Rafael</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="mailto:rgome020@ucr.edu">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div style="padding-left: 15%; padding-right: 15%;">
+            <h3 class="name">
+                Hello, I'm Rafael Gomez.
+            </h3>
+            <h2 class="title">Software Developer.</h2>
+            <p class="intro">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate commodi quis, sint dolores odit, 
+                in deleniti autem temporibus nulla reprehenderit dolore exercitationem neque earum. Quidem unde expedita, 
+                cupiditate nesciunt sit facere saepe, fugiat itaque quo assumenda consequuntur iure sint debitis et velit. 
+                Repellendus molestias, veniam at ipsam consequuntur deleniti. Dolore.
+            </p>
+            <h2 class="projects">
+                Projects
+            </h2>
+            <div class="grid-container">
+                <div id="project1">
+                    <a href="/projects" style="text-decoration: none;">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="/images/AniSeasonIcon.png" alt="">
+                            </div>
+                            <div class="card-container">
+                                <h4 style="background-color: var(--secondary-color); color: var(--maintext-color);">Aniseason</h4>
+                                <p style="background-color: var(--secondary-color); color: var(--maintext-color);">paragraph</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="project2">
+                    <a href="/projects" style="text-decoration: none;">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="/images/DogBreedIDIcon.png" alt="">
+                            </div>
+                            <div class="card-container">
+                                <h4 style="background-color: var(--secondary-color); color: var(--maintext-color);">Dog Breed Identifier</h4>
+                                <p style="background-color: var(--secondary-color); color: var(--maintext-color);">paragraph</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
